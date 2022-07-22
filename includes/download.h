@@ -2,7 +2,7 @@
 #define _DOWNLOAD_H_
 
 #define AMS_SIG_URL     "https://github.com/YoshiCrystal9/Gamblitz-Splatfest-BCAT/releases/download/release/atmosphere.zip"
-#define APP_URL         "https://github.com/YoshiCrystal9/Gamblitz-SplatfestDL/releases/download/release/switch.zip"
+#define APP_URL         "https://github.com/YoshiCrystal9/Gamblitz-SplatfestDL/releases/download/release/gamblitz-splatfestdl.nro"
 #define TEMP_FILE       "/switch/gamblitz-splatfestdl/temp"
 
 #define ON              1
