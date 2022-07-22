@@ -4,3 +4,8 @@
 *.elf
 *.nacp
 *.nro
+.vs/Gamblitz-SplatfestDL/FileContentIndex/f46f9ec3-3506-4448-9435-44cba6a58113.vsidx
+.vs/Gamblitz-SplatfestDL/FileContentIndex/read.lock
+.vs/Gamblitz-SplatfestDL/v17/.suo
+*.sqlite
+.vs/VSWorkspaceState.json

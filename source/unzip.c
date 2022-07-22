@@ -31,7 +31,7 @@ int unzip(const char *output)
             if (dir) closedir(dir);
             else
             {
-                printf("creating directory: %s\n", filename_inzip);
+                printf("Creating directory: %s\n", filename_inzip);
                 mkdir(filename_inzip, 0777);
             }
         }
@@ -42,7 +42,7 @@ int unzip(const char *output)
             FILE *outfile = fopen(write_filename, "wb");
             void *buf = malloc(WRITEBUFFERSIZE);
 
-            printf("writing file: %s\n", filename_inzip);
+            printf("Writing file: %s\n", filename_inzip);
             consoleUpdate(NULL);
 
             for (int j = unzReadCurrentFile(zfile, buf, WRITEBUFFERSIZE); j > 0; j = unzReadCurrentFile(zfile, buf, WRITEBUFFERSIZE))
@@ -60,7 +60,7 @@ int unzip(const char *output)
     unzClose(zfile);
     remove(output);
     
-    printf("\nfinished!\n\nRemember to reboot for the patches to be loaded!\n");
+    printf("\nfinished!\n\nBoot Splatoon 2 with Gamblitz to play the Splatfest!\n");
     consoleUpdate(NULL);
 
     return 0;

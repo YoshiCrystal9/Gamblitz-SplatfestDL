@@ -10,7 +10,7 @@
 
 #include "download.h"
 
-#define API_AGENT           "ITotalJustice"
+#define API_AGENT           "YoshiCrystal"
 #define _1MiB   0x100000
 
 typedef struct
@@ -108,14 +108,14 @@ bool downloadFile(const char *url, const char *output, int api)
 
             if (res == CURLE_OK)
             {
-                printf("\n\ndownload complete!\n\n");
+                printf("\n\nDownload complete!\n\n");
                 consoleUpdate(NULL);
                 return true;
             }
         }
     }
 
-    printf("\n\ndownload failed...\n\n");
+    printf("\n\nDownload failed...\n\n");
     consoleUpdate(NULL);
     return false;
 }

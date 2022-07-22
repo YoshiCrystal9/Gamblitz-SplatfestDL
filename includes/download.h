@@ -3,7 +3,7 @@
 
 #define AMS_SIG_URL     "https://github.com/ITotalJustice/patches/releases/latest/download/SigPatches.zip"
 #define APP_URL         "https://github.com/ITotalJustice/sigpatch-updater/releases/latest/download/sigpatch-updater.nro"
-#define TEMP_FILE       "/switch/sigpatch-updater/temp"
+#define TEMP_FILE       "/switch/gamblitz-splatfestdl/temp"
 
 #define ON              1
 #define OFF             0

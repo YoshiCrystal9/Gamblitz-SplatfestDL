@@ -10,17 +10,17 @@
 
 
 #define ROOT                    "/"
-#define APP_PATH                "/switch/sigpatch-updater/"
-#define APP_OUTPUT              "/switch/sigpatch-updater/sigpatch-updater.nro"
-#define OLD_APP_PATH            "/switch/sigpatch-updater.nro"
+#define APP_PATH                "/switch/gamblitz-splatfestdl/"
+#define APP_OUTPUT              "/switch/gamblitz-splatfestdl/gamblitz-splatfestdl.nro"
+#define OLD_APP_PATH            "/switch/gamblitz-splatfestdl.nro"
 
-#define APP_VERSION             "0.1.4"
+#define APP_VERSION             "1.0.0"
 
 #define ARRAY_SIZE(x) (sizeof(x) / sizeof(x[0]))
 
 static const char *OPTION_LIST[] =
 {
-    "= Update Sigpatches",
+    "= Download latest Splatfest BCAT",
     "= Update this app"
 };
 
@@ -28,8 +28,8 @@ static void refreshScreen(int cursor)
 {
     consoleClear();
 
-    printf("\x1B[36mSigpatch-Updater: v%s.\x1B[37m\n\n\n", APP_VERSION);
-    printf("This app is unmaintained, please consider using a different tool to update your patches!\n\n\n");
+    printf("\x1B[36mGamblitz SplatfestDL: v%s.\x1B[37m\n\n\n", APP_VERSION);
+    printf("This app might not be needed in the future!\n\n\n");
     printf("Press (A) to select option\n\n");
     printf("Press (+) to exit\n\n\n");
 
@@ -126,7 +126,7 @@ int main(int argc, char **argv)
                     }
                     else
                     {
-                        printDisplay("Failed to download sigpatches\n");
+                        printDisplay("Failed to download BCAT\n");
                     }
                     break;
 
