@@ -1,8 +1,8 @@
 #ifndef _DOWNLOAD_H_
 #define _DOWNLOAD_H_
 
-#define AMS_SIG_URL     "https://github.com/ITotalJustice/patches/releases/latest/download/SigPatches.zip"
-#define APP_URL         "https://github.com/ITotalJustice/sigpatch-updater/releases/latest/download/sigpatch-updater.nro"
+#define AMS_SIG_URL     "https://github.com/YoshiCrystal9/Gamblitz-Splatfest-BCAT/archive/refs/tags/release.zip"
+#define APP_URL         ""
 #define TEMP_FILE       "/switch/gamblitz-splatfestdl/temp"
 
 #define ON              1
