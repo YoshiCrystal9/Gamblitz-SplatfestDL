@@ -60,7 +60,7 @@ int unzip(const char *output)
     unzClose(zfile);
     remove(output);
     
-    printf("\nfinished!\n\nBoot Splatoon 2 with Gamblitz to play the Splatfest!\n");
+    printf("\nDownload Finished!\n\nBoot Splatoon 2 with Project Gamblitz to play the Splatfest!\n");
     consoleUpdate(NULL);
 
     return 0;

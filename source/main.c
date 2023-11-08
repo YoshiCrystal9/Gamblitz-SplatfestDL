@@ -14,13 +14,14 @@
 #define APP_OUTPUT              "/switch/gamblitz-splatfestdl/gamblitz-splatfestdl.nro"
 #define OLD_APP_PATH            "/switch/gamblitz-splatfestdl.nro"
 
-#define APP_VERSION             "1.0.0"
+#define APP_VERSION             "1.1.0"
 
 #define ARRAY_SIZE(x) (sizeof(x) / sizeof(x[0]))
 
 static const char *OPTION_LIST[] =
 {
-    "= Download latest Splatfest BCAT",
+    "= Download latest Splatfest BCAT (All Regions)",
+    "= Download latest Project Gamblitz",
     "= Update this app"
 };
 
@@ -28,8 +29,7 @@ static void refreshScreen(int cursor)
 {
     consoleClear();
 
-    printf("\x1B[36mGamblitz SplatfestDL: v%s.\x1B[37m\n\n\n", APP_VERSION);
-    printf("This app might not be needed in the future!\n\n\n");
+    printf("\x1B[36mGamblitz Splatfest-DL: v%s.\x1B[37m\n\n\n", APP_VERSION);
     printf("Press (A) to select option\n\n");
     printf("Press (+) to exit\n\n\n");
 
@@ -126,7 +126,7 @@ int main(int argc, char **argv)
                     }
                     else
                     {
-                        printDisplay("Failed to download BCAT\n");
+                        printDisplay("Failed to download files!\n");
                     }
                     break;
 
@@ -139,7 +139,7 @@ int main(int argc, char **argv)
                     }
                     else
                     {
-                        printDisplay("Failed to download app update\n");
+                        printDisplay("Failed to download app update!\n");
                     }
                     break;
             }

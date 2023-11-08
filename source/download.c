@@ -10,7 +10,7 @@
 
 #include "download.h"
 
-#define API_AGENT           "YoshiCrystal"
+#define API_AGENT           "YoshiCrystal9"
 #define _1MiB   0x100000
 
 typedef struct
