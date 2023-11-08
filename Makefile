@@ -37,9 +37,9 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   of a homebrew executable (.nro). This is intended to be used for sysmodules.
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
-APP_TITLE   := 	Gamblitz SplatfestDL
+APP_TITLE   := 	Gamblitz Splatfest-DL
 APP_AUTHOR  := 	YoshiCrystal, TotalJustice
-APP_VERSION := 	1.0.0
+APP_VERSION := 	1.1.0
 
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
