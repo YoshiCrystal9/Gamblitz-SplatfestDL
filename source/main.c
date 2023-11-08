@@ -21,7 +21,7 @@
 static const char *OPTION_LIST[] =
 {
     "= Download latest Splatfest BCAT (All Regions)",
-    "= Download latest Project Gamblitz",
+    //"= Download latest Project Gamblitz",
     "= Update this app"
 };
 
